@@ -104,6 +104,7 @@
   .py-xs-6 { padding-top: 6em!important; padding-bottom: 6em!important; }
   .py-xs-7 { padding-top: 7em!important; padding-bottom: 7em!important; }
   .py-xs-10 { padding-top: 10em!important; padding-bottom: 10em!important; }
+  .py-xs-20 { padding-top: 20em!important; padding-bottom: 20em!important; }
   .my-xs-2 { margin-top: 2em!important; margin-bottom: 2em!important; }
   .my-xs-4 { margin-top: 4em!important; margin-bottom: 4em!important; }
   .my-xs-5 { margin-top: 5em!important; margin-bottom: 5em!important; }
@@ -137,6 +138,8 @@
   .text-sm-left { text-align: left; }
   .text-sm-center { text-align: center; }
   .text-sm-right { text-align: right; }
+  .mx-sm-3 { margin-left: 3em!important; margin-right: 3em!important; }
+
 }
 
 @media (min-width: 768px) {
