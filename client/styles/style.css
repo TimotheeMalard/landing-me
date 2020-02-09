@@ -1,0 +1,72 @@
+body {
+  font-family: Tahoma;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.nav-link { color: black !important; }
+.nav-link.active { color: white !important; }
+
+#background_footer {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#background_content {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  width: 65%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#background_lg_content {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  width: 55%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#background_content_md {
+  position: absolute;
+  z-index: -1;
+  left: 35%;
+  transform: translate(0, -42%);
+}
+
+#background_content_lg {
+  position: absolute;
+  z-index: -1;
+  left: 44%;
+  transform: translate(0, -45%);
+}
+
+#background_header_md {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 30%;
+  top: 0;
+  text-align: right;
+}
+
+#background_header_lg {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 60%;
+  top: -48%;
+  text-align: right;
+}
