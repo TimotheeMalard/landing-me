@@ -1,0 +1,21 @@
+include head.pug
+.container-lg
+    include navbar.pug
+    .row.m-0
+        .col-12.text-xs-center.text-sm-center.pt-5.text-lg-left.ml-md-5
+            h1.color-secondary Nous contacter
+            p.color-third.width-50.width-lg-40.mx-auto.mx-lg-0
+                | Une demande, nos tarifs, un conseil ? Contactez-nous via ce formulaire, on vous répond au plus vite !
+        
+        .col-12.text-xs-center.text-sm-center.px-5.pb-8.d-lg-inline-flex.justify-content-between.ml-md-3
+            form
+                div.width-50.width-lg-100.mx-auto.min-lg-width-450
+                    input.text-center.my-2.border-primary-creanetis(type="name" class="form-control" id="name" placeholder="name")
+                    input.text-center.my-2.border-primary-creanetis(type="email" class="form-control" id="email" placeholder="you@example.com")
+                    input.text-center.my-2.border-primary-creanetis(type="phone" class="form-control" id="phone" placeholder="phone")
+                    input.text-center.my-2.border-primary-creanetis(type="subject" class="form-control" id="subject" placeholder="subject")
+                    textarea.text-center.my-2.border-primary-creanetis.min-lg-height-150(type="message" class="form-control" id="message" placeholder="message")
+                button.btn.btn-primary.btn-radius-5.px-8.py-4.my-4.py-lg-3.width-60 Envoyer
+            img.width-50(src='./images/undraw_manage_chats_ylx0.svg' width='100%')
+
+    include footer.pug
