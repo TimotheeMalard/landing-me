@@ -1,0 +1,8 @@
+{
+    "extends": [
+        "creanetis"
+    ],
+    "parserOptions": {
+        "sourceType": "script"
+    }
+}
