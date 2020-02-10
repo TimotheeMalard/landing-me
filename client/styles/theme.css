@@ -134,9 +134,7 @@
     font-size: 1.5rem;
     line-height: 2;
   }
-  .btn-reverse-primary {
-    font-size: 5rem;
-  }
+
   .bg-sm-primary { background-color: var(--primary-color) !important; }
   .text-sm-left { text-align: left; }
   .text-sm-center { text-align: center; }
@@ -153,6 +151,7 @@
 
 @media (min-width: 768px) {
   .width-md-10 { width: 10% !important; }
+  .width-md-30 { width: 30% !important; }
   .width-md-35 { width: 35% !important; }
   .width-md-45 { width: 45% !important; }
   .width-md-50 { width: 50% !important; }
@@ -168,7 +167,7 @@
     background-image: url("../images/TAB-entreprise-BG.svg");
     background-position: center;
     background-repeat: no-repeat;
-    background-position-y: top;
+    background-position-y: bottom;
   }
   .bg-md-content {
     background-color: unset !important;
