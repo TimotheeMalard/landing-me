@@ -1,23 +1,23 @@
 include head.pug
-include navbar.pug
-
-.row.m-0
-  img.d-lg-block.header-lg.left-0.d-sm-none(src='./images/HD-entreprise-BG.svg' width="80%" alt='HD-entreprise-BG')
-  .col-12.text-center.bg-primary.d-lg-none
-      h1.color-white.py-sm-2.font-size-5.d-lg-none Recruter votre équipe Tech n'a jamais été aussi facile !
-  .col-12.text-center
-    button.btn-reverse-primary.my-sm-1.btn-radius-8.px-sm-11.py-sm-5.d-lg-none Nous contacter
-    img.d-block.my-sm-10.ml-sm-6.d-lg-none(src='./images/undraw_unexpected_friends_tg6k.svg' width="80%" alt='HD-entreprise-BG')
-    h1.color-primary.font-size-6.d-lg-none Creanetis
-    h1.color-secondary.font-size-5.d-lg-none.mx-sm-1 recrute pour vous les meilleurs profils tech.
-    p.color-primary.ml-sm-4.my-sm-4.font-size-3.d-lg-none  Grâce à notre processus de recrutement spécialisé, nous vous proposons uniquement des profils qui correspondent parfaitement à vos besoins.
-  .col-12.text-center.bg-primary.py-sm-8.mt-sm-10.mb-sm-15.d-lg-none
-      h1.color-white.py-sm-1.font-size-6.d-lg-none Un process en 4 étapes clés !
-      p.color-white.my-sm-4.font-size-3.d-lg-none Identifications des profils, entretien RH, entretien technique, synthèse mail des talents sélectionnés pour vous.
-  .col-12
-      h1.color-secondary.font-size-5.d-lg-none.text-center Une agence conseil à votre écoute
-      p.color-primary.my-sm-4.font-size-3.d-lg-none.text-center On vous accompagne tout au long de l'intégration des nouvelles recrues dans vos équipes.
-      button.btn-reverse-primary.my-sm-1.btn-radius-8.px-sm-11.py-sm-5.d-lg-none.ml-sm-4 Nous contacter
+.container-lg
+  img.d-none.d-md-block.header-md(src='./images/HD-entreprise-BG.svg' width="80%" alt='HD-entreprise-BG')
+  include navbar.pug
+  .row.m-0
+    .col-12.text-center.py-5.mx-md-5.bg-xs-primary.bg-sm-primary.bg-md-header.mx-md-auto.bg-lg-none.mt-md-0.mb-md-auto.py-md-0
+      h1.color-white.width-md-60.width-md-45.mx-md-auto.mt-md-4.mb-md-14.mt-md-3 Recruter votre équipe Tech n'a jamais été aussi facile !
+    button.btn-reverse-primary.btn-radius-8.mx-auto.width-80.py-3.my-5 Nous contacter
+    .col-12.text-center.py-4
+      img.d-block.my-sm-10.mx-auto.mb-5(src='./images/undraw_unexpected_friends_tg6k.svg' width="80%" alt='HD-entreprise-BG')
+      h1.color-primary Creanetis
+      h1.color-secondary.mx-sm-1 recrute pour vous les meilleurs profils tech.
+      p.color-primary.ml-sm-4.my-sm-4  Grâce à notre processus de recrutement spécialisé, nous vous proposons uniquement des profils qui correspondent parfaitement à vos besoins.
+    .col-12.text-center.bg-primary.py-sm-8.mt-sm-10.mb-sm-15.py-5
+        h1.color-white.py-sm-1.mb-4 Un process en 4 étapes clés !
+        p.color-white Identifications des profils, entretien RH, entretien technique, synthèse mail des talents sélectionnés pour vous.
+    .col-12
+        h1.color-secondary.text-center.mt-5 Une agence conseil à votre écoute
+        p.color-primary.my-sm-4.text-center.mt-4 On vous accompagne tout au long de l'intégration des nouvelles recrues dans vos équipes.
+        button.btn-reverse-primary.btn-radius-8.width-80.py-3.my-5.mx-4 Nous contacter
   include footer.pug
 
 //- include footer.pug
