@@ -154,6 +154,7 @@
   .width-md-30 { width: 30% !important; }
   .width-md-35 { width: 35% !important; }
   .width-md-45 { width: 45% !important; }
+  .width-md-48 { width: 48% !important; }
   .width-md-50 { width: 50% !important; }
   .width-md-60 { width: 60% !important; }
   .width-md-70 { width: 70% !important; }
@@ -194,6 +195,7 @@
   .py-md-8 { margin-top: 8em!important; margin-bottom: 8em!important; }
   .py-md-9 { margin-top: 9em!important; margin-bottom: 9em!important; }
   .mr-md-10 { margin-right: 10rem!important; }
+  .mb-md-10 { margin-bottom: 10rem!important; }
   .mt-md-8 { margin-top: 8rem!important; }
   .text-md-right { text-align: right; }
   .float-md-right { float: right !important; }

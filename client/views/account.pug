@@ -3,24 +3,28 @@ include head.pug
   img.d-none.d-md-block.header-md(src='./images/HD-entreprise-BG.svg' width="80%" alt='HD-entreprise-BG')
   include navbar.pug
   .row.m-0
-    .col-12.text-center.py-5.mx-md-5.bg-xs-primary.bg-sm-primary.bg-md-header.mx-md-auto.bg-lg-none.mt-md-0.mb-md-auto.py-md-0
-      h1.color-white.width-md-50.width-sm-80.width-md-45.mx-auto.my-md-12.width-lg-30 Recruter votre équipe Tech n'a jamais été aussi facile !
-    button.btn.btn-reverse-primary.btn-radius-8.width-sm-80.mx-auto.px-10.my-5.mb-sm-0.py-4.width-md-50.py-md-5 Nous contacter
-    .col-12.text-center.d-md-flex
+    .col-12.text-center.py-5.mx-md-5.bg-xs-primary.bg-sm-primary.bg-md-header.mx-md-auto.bg-lg-none.mt-md-0.mb-md-auto.py-md-0.mb-lg-auto
+      h1.color-white.width-md-50.width-sm-80.width-md-45.mx-auto.py-md-10 Recruter votre équipe Tech n'a jamais été aussi facile !
+        button.d-none.d-lg-block.btn.btn-reverse-primary.btn-radius-5.color-white.btn-lg.mt-5.mx-auto.width-lg-40.py-lg-1 Nous contacter
+    button.d-lg-none.btn.btn-reverse-primary.btn-radius-8.width-sm-80.mx-auto.px-10.my-5.mb-sm-0.py-4.width-md-50.py-md-5 Nous contacter
+    .col-12.text-center.d-md-flex.mb-lg-15
       img.d-md-none.my-sm-10.mx-auto.mb-5(src='./images/undraw_unexpected_friends_tg6k.svg' width="80%" alt='HD-entreprise-BG')
       div.mx-auto.width-sm-80.width-md-45.ml-md-5.text-md-left
         h1.color-secondary.mx-auto
           span.color-primary Creanetis 
           | recrute pour vous les meilleurs profils tech.
         p.color-third.ml-sm-4.ml-md-0.my-sm-4.mb-sm-0  Grâce à notre processus de recrutement spécialisé, nous vous proposons uniquement des profils qui correspondent parfaitement à vos besoins.
-    .col-12.text-center.bg-primary.bg-md-none.py-sm-8.mt-sm-5.py-5.py-sm-2.d-md-flex.justify-content-between
-      img.d-none.d-md-block.my-sm-10.mx-auto.mb-5.width-md-30.mb-md-5(src='./images/undraw_unexpected_friends_tg6k.svg' width="80%" alt='HD-entreprise-BG')
+    .col-12.text-center.bg-primary.bg-md-none.py-sm-8.mt-sm-5.py-5.py-sm-2.d-md-flex.justify-content-between.mt-lg-10
+      img.d-none.d-md-block.my-sm-10.mx-auto.mb-5.width-md-30.position-absolute.position-md-unset.mt-md-0(src='./images/undraw_unexpected_friends_tg6k.svg' width="80%" alt='HD-entreprise-BG')
       div
         #background_content_md
-          img.d-none.d-md-block(src='../images/TAB-entreprise-ContentBG.svg')
-        h1.color-white.py-sm-1.mb-4.width-sm-80.width-md-50.ml-md-auto.mr-md-3.pr-md-5 Un process en 4 étapes clés !
-        p.color-white.width-sm-80.mx-auto.width-md-50.ml-md-auto.mr-md-3.pr-md-5 Identifications des profils, entretien RH, entretien technique, synthèse mail des talents sélectionnés pour vous.
-    .col-12.text-center.ml-md-3
+          img.d-none.d-md-block.d-lg-none(src='../images/TAB-entreprise-ContentBG.svg')
+        #background_content_lg
+          img.d-none.d-lg-block(src='../images/TAB-entreprise-ContentBG.svg')
+      div
+        h1.color-white.py-sm-1.mb-4.width-sm-100.width-md-60.ml-md-auto.mr-md-6 Un process en 4 étapes clés !
+        p.color-white.width-sm-80.mx-auto.width-md-48.ml-md-auto.mr-md-6 Identifications des profils, entretien RH, entretien technique, synthèse mail des talents sélectionnés pour vous.
+    .col-12.text-center.ml-md-3.my-md-9
         h1.color-secondary.text-center.mt-5.width-sm-80.mx-auto.width-md-60.float-md-left.text-md-left Une agence conseil à votre écoute
         p.color-third.my-sm-4.text-center.mt-4.width-md-50.mx-auto.ml-md-0.my-4.ml-md-3.text-md-left On vous accompagne tout au long de l'intégration des nouvelles recrues dans vos équipes.
         button.btn-reverse-primary.btn-radius-8.py-4.px-10.my-4.py-md-5.width-md-40.mr-md-auto.float-md-left.py-md-2 Nous contacter
